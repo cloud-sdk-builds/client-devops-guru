@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-devops-guru`](https://www.npmjs.com/package/@aws-sdk/client-devops-guru/v/3.713.0).
+[`@aws-sdk/client-devops-guru`](https://www.npmjs.com/package/@aws-sdk/client-devops-guru/v/3.714.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.713.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.714.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-kxHOpvQTZToliZ0d7FKsIDzJJzsIPvV99+kXDqMojl7eNahB1yw3Dcpvsd/ia+Ta
+sha384-RrPyT80sNDG/k2aYe6V3jVUh8j3LyfzxYxnIkOZoP1KYs5sgWyuem5s/vi+LmOsK
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-devops-guru": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.713.0/index.min.mjs"
+            "@aws-sdk/client-devops-guru": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.714.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.713.0/index.min.mjs": "sha384-kxHOpvQTZToliZ0d7FKsIDzJJzsIPvV99+kXDqMojl7eNahB1yw3Dcpvsd/ia+Ta"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.714.0/index.min.mjs": "sha384-RrPyT80sNDG/k2aYe6V3jVUh8j3LyfzxYxnIkOZoP1KYs5sgWyuem5s/vi+LmOsK"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-devops-guru": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.713.0/index.min.mjs"
+                        "@aws-sdk/client-devops-guru": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.714.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.713.0/index.min.mjs": "sha384-kxHOpvQTZToliZ0d7FKsIDzJJzsIPvV99+kXDqMojl7eNahB1yw3Dcpvsd/ia+Ta"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-devops-guru@3.714.0/index.min.mjs": "sha384-RrPyT80sNDG/k2aYe6V3jVUh8j3LyfzxYxnIkOZoP1KYs5sgWyuem5s/vi+LmOsK"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.713.0`)
+* Always pin to a specific version (`@3.714.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-devops-guru/blob/refs/tags/3.713.0/LICENSE
+https://github.com/cloud-sdk-builds/client-devops-guru/blob/refs/tags/3.714.0/LICENSE
 ```
 
 ---
